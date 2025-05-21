@@ -250,7 +250,7 @@ p.show-more .dots {
     padding-bottom: 2rem;
 }
 
-.projects-box .live-github a {
+.projects-box .live-socialmedia a {
     position: relative;
     display: inline-flex;
     padding: 1.3rem;
@@ -261,19 +261,15 @@ p.show-more .dots {
     transition: .5s ease;
 }
 
-.projects-box .live-github a:hover {
+.projects-box .live-socialmedia a:hover {
     color: var(--main-color);
 }
 
-.projects-box .live-github a:first-child {
+.projects-box .live-socialmedia a:first-child {
     margin-right: 1.5rem;
 }
 
-.projects-box .live-github a:first-child i {
-    transform: rotate(135deg);
-}
-
-.projects-box .live-github a span {
+.projects-box .live-socialmedia a span {
     position: absolute;
     top: -60%;
     left: 50%;
@@ -289,7 +285,7 @@ p.show-more .dots {
     transition: .2s;
 }
 
-.projects-box .live-github a:hover span {
+.projects-box .live-socialmedia a:hover span {
     top: -70%;
     opacity: 1;
     transform: translateX(-50%) scale(1);

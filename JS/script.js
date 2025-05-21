@@ -56,7 +56,7 @@ const text = document.querySelector('.about-content p');
 ReadMoreBtn.addEventListener('click', (e) => {
     text.classList.toggle('show-more');
     if(ReadMoreBtn.innerText === 'Read More') {
-        ReadMoreBtn.innerText = 'Less More';
+        ReadMoreBtn.innerText = 'Read Less';
     } else {
         ReadMoreBtn.innerText = 'Read More'
     }
