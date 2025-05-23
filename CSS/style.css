@@ -693,24 +693,24 @@ p.show-more .dots {
 
   .alert-content {
     background: var(--text-color);
-    padding: 30px;
-    border-radius: 15px;
+    padding: 1.8rem;
+    border-radius: 0.9rem;
     text-align: center;
-    width: 300px;
+    width: 18.7rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     animation: fadeIn 0.3s ease;
   }
   
   .spinner-container {
     position: relative;
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     margin: 0 auto 20px;
   }
   
   .spinner {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
   }
   
   .spinner-check .path {
@@ -738,13 +738,13 @@ p.show-more .dots {
   
  .alert-content h2 {
     margin-top: 0;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--bg-color);
   }
   
  .alert-content p {
     color: var(--second-bg-color);
-    margin-bottom: 20px;
+    margin-bottom: 1.3rem;
   }
 
   .check-button {
